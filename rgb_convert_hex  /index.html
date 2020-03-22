@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>hex slider</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+    
+</head>
+
+<body >
+  <nar class = 'navbar navbar-inverse navbar-fixed-top'>
+  </nar>
+        <div class ='container '>
+          <div class = 'row hex-div'>           
+                <div class="data-pantal" style= 'background-color: #323232'></div>
+          </div>
+                <div class= 'hex_code' >
+                      #323232
+                </div> 
+                
+                <div class = 'row container'>
+                      <!----bar1-->
+                      <div class ='col-2'></div>
+                      <div class= 'col-1'>R</div>
+                          <div class="slidecontainer col-6 slider-a">
+                              <input type="range" min="0" max="225" value="50" class="slider" id="slider_a" >
+                          </div>
+                      <div class= 'col-1' id = 'slider_a_value'>50</div>
+                      <div class ='col-2'></div>
+                      <!----bar2-->
+                      <div class ='col-2'></div>
+                      <div class= 'col-1'>G</div>
+                          <div class="slidecontainer col-6 slider-b">
+                                <input type="range" min="0" max="225" value="50" class="slider" id="slider_b">
+                          </div>
+                      <div class= 'col-1' id = 'slider_b_value'>0</div>
+                      <div class ='col-2'></div>
+                      <!----bar3-->
+                          <div class ='col-2'></div>
+                          <div class= 'col-1'>B</div>
+                            <div class="slidecontainer col-6 slider-c">
+                                    <input type="range" min="0" max="225" value="50" class="slider" id="slider_c">
+                                  </div>
+                        <div class= 'col-1' id = 'slider_c_value' >50</div>
+                        <div class ='col-2'></div>
+
+                
+                </div>
+      </div>
+ 
+    <script src="https://use.fontawesome.com/releases/v5.0.0/js/solid.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.0/js/regular.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.0/js/fontawesome.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
