@@ -12,8 +12,6 @@
   const data_pantal = document.querySelector('.hex-div') 
   //const bodybg = document.querySelector('body') 
 
-
-
   sliderValue_a.innerText = slidera.value  
   sliderValue_b.innerText = sliderb.value  
   sliderValue_c.innerText = sliderc.value  
@@ -38,8 +36,6 @@
         `
       }   
   
-  
-
 
     slidera.oninput = function() {
       sliderValue_a.innerText = this.value; 
@@ -60,9 +56,7 @@
       chargeColor()
       
   }
-
-
-    
+ 
     function toHex(e){
       let hex = Number(e).toString(16) 
       if (hex.length === 1) {hex = '0' + hex} 
