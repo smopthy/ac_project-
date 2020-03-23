@@ -1,0 +1,17 @@
+.modal-body {
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+.switch{
+    display: flex; 
+    flex-wrap: row wrap ;
+    justify-content: space-between;
+}
+
+.list-mode {
+    display: flex; 
+    flex-wrap: row wrap ;
+    justify-content: space-between;
+
+}
